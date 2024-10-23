@@ -10,10 +10,17 @@
 .album {
     display: flex;
 }
+.app-content {
+    display: flex;
+    flex-direction: column;
+}
 /* Barre de lecture */
+.app-bottom {
+    display: flex;
+    justify-content: space-between;
+}
 .current {
     display: flex;
-    align-items: center;
 }
 /* Contrôles de la barre de lecture */
 .controls {
