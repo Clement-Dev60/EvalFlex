@@ -1,19 +1,24 @@
 /*Entièreté de l'application */
-.app-wrapper {
+.app-wrapper > {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-/* Barre de navigation */
+/* Haut de l'application */
 .app-top {
   display: flex;
   height: 100%;
 }
+.app-content  {
+    background: linear-gradient(#000, #313131);
+}
+/* Barre de navigation */
 .app-nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background-color: #313131;
 }
 /* Album */
 .album {
@@ -29,11 +34,18 @@
   display: flex;
   justify-content: space-between;
   bottom: 0;
+  background-color: #313131;
 }
 .current {
   display: flex;
   width: 80%;
   align-items: center;
+}
+.current-details {
+    background-color: #313131;
+}
+.app-bottom .current {
+    background-color: #313131;
 }
 /* Contrôles de la barre de lecture */
 .controls {
@@ -41,8 +53,13 @@
   justify-content: space-around;
   align-items: center;
 }
+.app-bottom .controls {
+    background-color: #313131;
+}
 /* Titres de l'album */
 li {
   display: flex;
   justify-content: space-between;
 }
+
+/*background: linear-gradient(#000, #313131);*/

@@ -52,10 +52,7 @@ a:hover {
 /* ----------------------------------------------------------------------
     @@@ Partie album
 ---------------------------------------------------------------------- */
-.app-content .album {
-    background: purple;
-    padding: 20px;
-}
+
 .app-content .cover {
     margin-right: 20px;
 }
@@ -68,12 +65,7 @@ a:hover {
 /* ----------------------------------------------------------------------
     @@@ Partie tracklist
 ---------------------------------------------------------------------- */
-.app-content .tracklist {
-    background: violet;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+
 .app-content .track-item {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     color: #fff;
