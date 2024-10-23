@@ -1,46 +1,47 @@
 /*Entièreté de l'application */
 .app-wrapper {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 /* Barre de navigation */
 .app-top {
-    display: flex;
+  display: flex;
 }
 .app-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 /* Album */
 .album {
-    display: flex;
+  display: flex;
 }
 .app-content {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 /* Barre de lecture */
 .app-bottom {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
 }
 .current {
-    display: flex;
-    width: 80%;
-    align-items: center;
+  display: flex;
+  width: 80%;
+  align-items: center;
 }
 /* Contrôles de la barre de lecture */
 .controls {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 /* Titres de l'album */
 li {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
