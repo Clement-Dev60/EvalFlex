@@ -21,6 +21,7 @@
 .app-content {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 /* Barre de lecture */
 .app-bottom {
@@ -29,6 +30,8 @@
 }
 .current {
     display: flex;
+    width: 80%;
+    align-items: center;
 }
 /* Contrôles de la barre de lecture */
 .controls {
