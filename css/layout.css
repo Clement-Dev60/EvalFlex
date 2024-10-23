@@ -1,4 +1,7 @@
 /* Barre de navigation */
+.app-top {
+    display: flex;
+}
 .app-nav {
     display: flex;
     flex-direction: column;
